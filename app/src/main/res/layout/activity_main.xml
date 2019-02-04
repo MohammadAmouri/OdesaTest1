@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCDC12"
+    tools:context=".MainActivity">
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Reset password"
+      android:layout_gravity="center"
+      android:textColor="#FEFEFE"
+      android:textSize="25sp"
+      android:textAppearance="@android:style/TextAppearance.Medium"
+      android:textStyle="italic"
+      android:layout_marginTop="35dp"/>
+
+  <TextView
+      android:id="@+id/email_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Email adress"
+      android:textSize="19sp"
+      android:layout_marginTop="35dp"
+      android:layout_marginBottom="4dp"
+      android:layout_gravity="center"
+      android:textColor="#FEFEFE"/>
+
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableLeft="@drawable/aroba"
+        android:hint="Email adress"
+        android:layout_marginLeft="16dp"
+        android:textColor="#FEFEFE"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress" />
+  <TextView
+      android:id="@+id/phone_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Phone number"
+      android:textSize="19sp"
+      android:layout_marginLeft="40dp"
+      android:textColor="#FEFEFE"/>
+
+  <EditText
+      android:id="@+id/ed_phone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:drawableLeft="@drawable/phone"
+      android:ems="10"
+      android:hint="Phone number"
+      android:layout_marginLeft="16dp"
+      android:inputType="number"
+      android:textColor="#FEFEFE"
+      android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/if_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IF it is registered account we will send you a new password."
+        android:textColor="#FEFEFE"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:id="@+id/please_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please remember to change it after you login"
+        android:textColor="#FEFEFE"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+  <Button
+      android:id="@+id/cancel_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="cancel"
+      android:textColor="#730800"
+      android:background="@drawable/round_button"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="@drawable/round_button2"
+      android:text="confirm"
+      android:textColor="#01D758"/>
+
+
+
+</LinearLayout>
